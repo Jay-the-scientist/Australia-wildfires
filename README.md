@@ -24,27 +24,32 @@ This dataset includes daily measurements of fire activity with confidence scores
 - **Count**: Number of fire-flagged pixels per day  
 - **Replaced**: Indicator whether higher-quality data replaced preliminary records
 
+![Alt text](images/1-dataframehead.png)
+
+
 ## Methodology
 - Cleaned and preprocessed data to handle missing values and ensure regional consistency  
-- Conducted time series and seasonal decomposition analysis  
 - Explored variable correlations (e.g., brightness vs. area, radiative power vs. pixel count)  
 - Visualized regional fire patterns using folium and geopandas  
-- Created heatmaps and trend plots to reveal peak fire periods and locations
 
 ## Insights
 - This plot represents that the estimated fire area was on its peak after 2011, April and before 2012. You can verify on google/news, this was the time of maximum wildfire hit in Austrailia
 
+![Alt text](images/5-estimated-fire-over-time-by-month-and-year.png)
+
+To understand the distribution of estimated fire brightness across regions: 
+
+![Alt text](images/11-stacked-distribution-of-estimated-fire-brightess-across-regions.png)
 
   
-- Radiative power and pixel count strongly correlate with estimated fire area  
-- Regional differences reveal climate and vegetation as major factors in fire behavior  
-- Data replacements indicate quality improvements for long-term trend accuracy
+- Mean radiative power and mean confidence are strongly correlated
 
-## Visualizations
-- Time-series graphs showing monthly and yearly wildfire trends  
-- Heatmaps highlighting high-activity regions  
-- Geospatial visualizations across Australia  
-- Correlation matrices of fire-related variables
+![Alt text](images/12-correlation-between-mean-estimated-fire-radiative-power-and-mean-confidence.png)
+
+- Visualizing geopspatial data on the folium map
+
+![Alt text](images/14-regions-marked-in-folium.png)
+
 
 
 ## Future Work
