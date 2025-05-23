@@ -32,7 +32,10 @@ This dataset includes daily measurements of fire activity with confidence scores
 - Created heatmaps and trend plots to reveal peak fire periods and locations
 
 ## Insights
-- Fire activity peaks during hot, dry seasons—typically in summer and early autumn  
+- This plot represents that the estimated fire area was on its peak after 2011, April and before 2012. You can verify on google/news, this was the time of maximum wildfire hit in Austrailia
+
+
+  
 - Radiative power and pixel count strongly correlate with estimated fire area  
 - Regional differences reveal climate and vegetation as major factors in fire behavior  
 - Data replacements indicate quality improvements for long-term trend accuracy
@@ -40,7 +43,7 @@ This dataset includes daily measurements of fire activity with confidence scores
 ## Visualizations
 - Time-series graphs showing monthly and yearly wildfire trends  
 - Heatmaps highlighting high-activity regions  
-- Geospatial visualizations of average fire area and radiative power across Australia  
+- Geospatial visualizations across Australia  
 - Correlation matrices of fire-related variables
 
 
