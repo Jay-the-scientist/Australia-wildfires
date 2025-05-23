@@ -42,15 +42,16 @@ To understand the distribution of estimated fire brightness across regions:
 ![Alt text](images/11-stacked-distribution-of-estimated-fire-brightess-across-regions.png)
 
   
-- Mean radiative power and mean confidence are strongly correlated
+- The following graph shows a strong correlation with mean radiative power and mean confidence
 
 ![Alt text](images/12-correlation-between-mean-estimated-fire-radiative-power-and-mean-confidence.png)
 
-- Visualizing geopspatial data on the folium map
+- Visualizing geospatial data on the folium map allows analyses and visualizations on the world map
 
 ![Alt text](images/14-regions-marked-in-folium.png)
 
-
+## Conclusion
+In conclusion, this project helped me understand and apply feature encoding, visualizing data with various graphs, and visualizing location data using folium to crate informative plots. 
 
 ## Future Work
 - Build machine learning models to predict high-risk days and regions  
